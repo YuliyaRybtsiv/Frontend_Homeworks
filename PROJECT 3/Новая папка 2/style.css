@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: violet;
+}
+.item {
+    width: 200px; 
+    height: 200px; 
+    background-color: gold;
+    margin: 10px;
+}

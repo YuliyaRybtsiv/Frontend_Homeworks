@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    top: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+section {
+    height: 100vh;
+}
+#red {
+    margin-top: 70px;
+    background-color: rgba(255, 0, 0, 0.748);
+}
+#green {
+    background-color: rgb(74, 211, 74);
+}
+#yellow {
+    background-color: rgb(242, 242, 24);
+}
+#blue {
+    background-color: rgb(89, 89, 218);
+}

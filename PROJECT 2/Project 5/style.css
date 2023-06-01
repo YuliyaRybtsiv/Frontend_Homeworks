@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+}
+figure {
+    width: 400px;
+    aspect-ratio: 2;
+    border: 10px solid blue
+}

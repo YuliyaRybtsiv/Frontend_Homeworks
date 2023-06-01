@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    margin: auto;
+    max-width: 420px;
+}
+
+.cros {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+
+    padding: 7px 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.email:focus {
+    border: 2px solid #e3c105;
+    outline: none;
+    caret-color: #ffd900;
+}
+

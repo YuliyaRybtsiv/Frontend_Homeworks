@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: gold;
+    padding: 20px;
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+h1:hover {
+    color: red
+}
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: rgb(136, 4, 4);
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+    } 
+ .item {
+    width: calc(50% - 20px);
+    aspect-ratio: 16/9;
+    background-color: rgb(136, 1, 1);
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.item:hover {
+    transform: scale(1.05) rotate(-5deg);
+}
+.item-1 {
+    background-image: url(./bereg_okean_volny_356410_1600x900.jpeg);
+}
+.item-2 {
+    background-image: url(./katera_bereg_okean_264754_1600x900.jpeg);
+}
+.item-3 {
+    background-image: url(./leto_maldivy_tropiki_90623_1600x900.jpeg);
+}
+.item-4 {
+    background-image: url(./palma_pliazh_more_924454_1600x900.jpeg);
+}
+.item-5 {
+    background-image: url(./palma_pliazh_tropiki_282574_1600x900.jpeg);
+}
+.item-6 {
+    background-image: url(./palmy_vetki_tropiki_912311_1600x900.jpeg);
+}
+.item-7 {
+    background-image: url(./pliazh_more_pesok_92471_1600x900.jpeg);
+}
+.item-8 {
+    background-image: url(./pliazh_pesok_palmy_90404_1600x900.jpeg);
+}
