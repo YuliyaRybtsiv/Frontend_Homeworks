@@ -1,0 +1,16 @@
+:root {
+    --main-color: blue;
+    --bg-color: red;
+}
+
+h1 {
+    color: var(--main-color)
+}
+
+h2 {
+    color: #fff;
+    background: var(--main-color)
+}
+p {
+    border-left: 8px solid var(--main-color)
+}

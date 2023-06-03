@@ -14,3 +14,6 @@ const productPrice = 10000
 
 console.log(productName, productPrice)
 console.log(userName)
+
+let a = 5;
+console.log(a);
