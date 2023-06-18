@@ -1,0 +1,12 @@
+.users_container {
+    width: 30%;
+    background-color: rgb(175, 41, 64);
+    padding: 20px;
+    margin: 20px;
+}
+p {
+    font-size: 20px;
+}
+section {
+    color: rgb(255, 255, 255);
+}
