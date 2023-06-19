@@ -30,7 +30,7 @@ printEvenNumbers(180, 280)
 function power (base, exp = 2) {
     return base ** exp
 }
-console.log(power (2, 10));
+console.log(power (5));
 
 
 
