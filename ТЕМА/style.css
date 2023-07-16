@@ -1,0 +1,7 @@
+body {
+    transition: .5s;
+}
+.is-dark {
+    background: black;
+    color: white;
+}
