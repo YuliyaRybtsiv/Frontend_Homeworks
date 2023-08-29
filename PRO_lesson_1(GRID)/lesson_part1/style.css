@@ -1,0 +1,62 @@
+.block{
+    padding: 15px;
+    /* width: 25px;
+    height: 25px; */
+    border: 1px solid black;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+
+    /* Сво-во, указывающее количество и ширину элементов в одном ряду */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 100px);
+
+    /* Сво-во, регулирующее высоту каждого ряда */
+    /* grid-template-rows: 100px 200px 300px; */
+
+    /* Сво-во, регулирующее высоту для всех элементов сетки */
+    /* grid-auto-rows: minmax(100px, auto); */
+    grid-auto-rows: 100px;
+
+    /* оттступы по двум осям */
+    /* gap: 10px 20px; */
+
+    /* Отступы для каждой оси */
+    /* grid-row-gap: 50px; */
+    /* grid-column-gap: 50px; */
+
+    /* Положение всей сетки относительно документа */
+    /* justify-content: center; */
+    /* align-content: center; */
+
+    /* Положение элементи внутри сетки */
+    /* align-items: end;
+    justify-items: end; */
+}
+
+/* Пример указания положения строго указанных элементов */
+/* Для 2 и 7 блока */
+
+/* .elem_2{
+    align-self: start; 
+    justify-self: center;
+}
+
+.elem_7{
+    align-self: start; 
+    justify-self: center;
+} */
+
+/*  */
+
+.elem_1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.elem_2{
+    grid-row: 1/3;
+    grid-column: 2/4;
+}

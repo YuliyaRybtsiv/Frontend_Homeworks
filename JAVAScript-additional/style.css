@@ -1,0 +1,171 @@
+:root{
+    --color-main: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parent {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* padding: 20px; */
+    /* position: relative; */
+
+    display: flex;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* position: absolute; */
+
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto; */
+
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    margin: auto;
+}
+
+
+/* .wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapper img{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wrapper img:last-child{
+    margin-bottom: 0px;
+} */* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parent {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* padding: 20px; */
+    /* position: relative; */
+
+    display: flex;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* position: absolute; */
+
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto; */
+
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    margin: auto;
+}
+
+
+/* .wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapper img{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wrapper img:last-child{
+    margin-bottom: 0px;
+} */
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.project {
+    padding: 32px 0;
+}
+
+.project > h2 {
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.project__items {
+    padding: 12px 0;
+
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    gap: 16px;
+}
+
+.project__items .item {
+    max-width: 362px;
+    position: relative;
+}
+
+.project__items .item img {
+    width: 100%;
+}
+
+.project__items .item span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00000050;
+    top: 0;
+    left: 0;
+    display: none;
+    color: #fff;
+    /* opacity: 0.5; */
+    justify-content: center;
+    align-items: center;
+}
+
+.project__items .item:hover .overlay {
+    display: flex;
+}
